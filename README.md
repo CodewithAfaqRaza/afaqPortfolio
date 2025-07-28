@@ -61,8 +61,11 @@ git push -u origin main write a readme.md file for my portfolio
 git checkout -b feature-new-section
 
 git add .
+
 git commit -m "Added new section to portfolio"
+
 git push origin feature-new-section
+
 
 
 ---
