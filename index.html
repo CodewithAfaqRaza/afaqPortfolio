@@ -6,37 +6,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="relative text-[var(--color-tertiary)] pt-21 px-2 p-4 bg-[var(--color-primary)]">
+<body class="relative text-[var(--color-tertiary)] pt-21 lg:p-4 lg:pl-30 px-2 p-4 bg-[var(--color-primary)]">
     <nav class="fixed top-0 left-0 lg:bottom-0 lg:w-fit lg:flex-col w-full p-4 flex justify-between lg:justify-between lg:items-center bg-[var(--color-primary)] z-50 gap-4">
         <div class="nav__icon h-10 w-10 rounded-sm">
-            <img class="h-full w-full object-cover rounded-xl" src="./images/icon.avif" alt="icon">
+            <a href="#"><img class="h-full w-full object-cover rounded-xl" src="./images/icon.avif" alt="icon"></a>
         </div>
-        <div class="menu-content hidden bg-[var(--color-primary)] text-xl lg:flex lg:flex-col lg:gap-1.5">
-            <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg icon-shadow">
-                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
+        <div class="menu-content h-screen hidden bg-[var(--color-primary)] text-sm lg:flex lg:flex-col lg:gap-1.5">
+            <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg icon-shadow text-[var(--color-secondary)]">
+                <svg class="fill-[var(--color-secondary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
                 <p>Home</p>
             </a>
             <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg">
-                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path></svg>
+                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path></svg>
                 <p>About</p>
             </a>
             <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg">
-                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M224,64H154.67L126.93,43.2a16.12,16.12,0,0,0-9.6-3.2H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H192.89A15.13,15.13,0,0,0,208,200.89V184h16.89A15.13,15.13,0,0,0,240,168.89V80A16,16,0,0,0,224,64ZM192,200H40V88H85.33l29.87,22.4A8,8,0,0,0,120,112h72Zm32-32H208V112a16,16,0,0,0-16-16H122.67L94.93,75.2a16.12,16.12,0,0,0-9.6-3.2H72V56h45.33L147.2,78.4A8,8,0,0,0,152,80h72Z"></path></svg>
+                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M224,64H154.67L126.93,43.2a16.12,16.12,0,0,0-9.6-3.2H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H192.89A15.13,15.13,0,0,0,208,200.89V184h16.89A15.13,15.13,0,0,0,240,168.89V80A16,16,0,0,0,224,64ZM192,200H40V88H85.33l29.87,22.4A8,8,0,0,0,120,112h72Zm32-32H208V112a16,16,0,0,0-16-16H122.67L94.93,75.2a16.12,16.12,0,0,0-9.6-3.2H72V56h45.33L147.2,78.4A8,8,0,0,0,152,80h72Z"></path></svg>
                 <p>Project</p>
             </a>
             <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg">
-                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
                 <p>Services</p>
             </a>
             <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg">
-                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M227.32,73.37,182.63,28.69a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31l83.67-83.66,3.48,13.9-36.8,36.79a8,8,0,0,0,11.31,11.32l40-40a8,8,0,0,0,2.11-7.6l-6.9-27.61L227.32,96A16,16,0,0,0,227.32,73.37ZM48,179.31,76.69,208H48Zm48,25.38L51.31,160,136,75.31,180.69,120Zm96-96L147.32,64l24-24L216,84.69Z"></path></svg>
+                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M227.32,73.37,182.63,28.69a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31l83.67-83.66,3.48,13.9-36.8,36.79a8,8,0,0,0,11.31,11.32l40-40a8,8,0,0,0,2.11-7.6l-6.9-27.61L227.32,96A16,16,0,0,0,227.32,73.37ZM48,179.31,76.69,208H48Zm48,25.38L51.31,160,136,75.31,180.69,120Zm96-96L147.32,64l24-24L216,84.69Z"></path></svg>
                 <p>Blog</p>
             </a>
             <a href="#" id="menu_buttons" class="p-2.5 flex gap-1 lg:flex-col items-center cursor-pointer rounded-lg">
-                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M216,48H40A16,16,0,0,0,24,64V224a15.85,15.85,0,0,0,9.24,14.5A16.13,16.13,0,0,0,40,240a15.89,15.89,0,0,0,10.25-3.78l.09-.07L83,208H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM40,224h0ZM216,192H80a8,8,0,0,0-5.23,1.95L40,224V64H216ZM88,112a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H96A8,8,0,0,1,88,112Zm0,32a8,8,0,0,1,8-8h64a8,8,0,1,1,0,16H96A8,8,0,0,1,88,144Z"></path></svg><p>Contact</p>
+                <svg class="hover:fill-[var(--color-secondary)] fill-[var(--color-tertiary)]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M216,48H40A16,16,0,0,0,24,64V224a15.85,15.85,0,0,0,9.24,14.5A16.13,16.13,0,0,0,40,240a15.89,15.89,0,0,0,10.25-3.78l.09-.07L83,208H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM40,224h0ZM216,192H80a8,8,0,0,0-5.23,1.95L40,224V64H216ZM88,112a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H96A8,8,0,0,1,88,112Zm0,32a8,8,0,0,1,8-8h64a8,8,0,1,1,0,16H96A8,8,0,0,1,88,144Z"></path></svg><p>Contact</p>
             </a>
         </div>
-        <div onclick="themeChange(this)" class="theme lg:flex justify-between w-18.5 container-shadow rounded-full p-1 cursor-pointer m-2.5 hidden">
+        <div onclick="themeChange(this)" class="theme lg:flex justify-between w-18.5 container-shadow rounded-full p-1 cursor-pointer hidden">
             <div class="moon p-1 rounded-full bg-[var(--color-primary)] inset-shadow">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="var(--color-body-text)" viewBox="0 0 256 256"><path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z"></path></svg>
             </div>
@@ -49,7 +49,7 @@
                 <div class="hum__bottom w-4 h-0.5 bg-[var(--color-tertiary)] transition duration-300 ease-in-out"></div>
         </div>
     </nav>
-    <div class="menu hidden fixed inset-0 top-17.5 w-full overflow-y-auto">
+    <div class="menu lg:hidden z-100 hidden fixed inset-0 top-17.5 w-full overflow-y-auto">
         <div class="menu-content h-full flex flex-col gap-6 py-4 px-3 bg-[var(--color-primary)] text-xl overflow-y-auto">
             <a href="#" class="p-2.5 flex gap-1 items-center cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="var(--color-secondary)" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
@@ -74,35 +74,35 @@
             <a href="#" class="p-2.5 flex gap-1 items-center cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M216,48H40A16,16,0,0,0,24,64V224a15.85,15.85,0,0,0,9.24,14.5A16.13,16.13,0,0,0,40,240a15.89,15.89,0,0,0,10.25-3.78l.09-.07L83,208H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM40,224h0ZM216,192H80a8,8,0,0,0-5.23,1.95L40,224V64H216ZM88,112a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H96A8,8,0,0,1,88,112Zm0,32a8,8,0,0,1,8-8h64a8,8,0,1,1,0,16H96A8,8,0,0,1,88,144Z"></path></svg><p>Contact</p>
             </a>
-            <div onclick="themeChange(this)" class="theme flex justify-between w-18.5 drop-shadow rounded-full p-1 cursor-pointer mt-5 ml-2.5">
-                <div class="moon p-1 rounded-full bg-[var(--color-primary)] inset-shadow">
+            <div onclick="themeChange(this)" class="theme flex justify-between w-18.5 container-shadow rounded-full p-1 cursor-pointer mt-5 ml-2.5">
+                <div class="moon p-1 rounded-full bg-[var(--color-primary)] icon-shadow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="var(--color-body-text)" viewBox="0 0 256 256"><path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z"></path></svg>
                 </div>
-                <div class="invisible sun p-1 rounded-full bg-[var(--color-primary)] inset-shadow">
+                <div class="invisible sun p-1 rounded-full bg-[var(--color-primary)] icon-shadow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="var(--color-body-text)" viewBox="0 0 256 256"><path d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"></path></svg>
                 </div>
             </div>
         </div>
     </div>
     <main>
-        <div class="hero__section main-container relative rounded-2xl py-12.5 pb-35 px-4 overflow-clip">
+        <div class="hero__section main-container flex place-items-center relative rounded-2xl py-12.5 lg:pb-12.5 pb-35 px-4 overflow-clip">
             <img class="object-cover h-full absolute bottom-0 right-0 -z-10" src="hero back.gif" alt="">
             <div class="hero__text flex flex-col gap-6 text-[var(--color-tertiary)] md:w-125">
                 <p>Hello <span class="text-[var(--color-body-text)]">My Name</span> is</p>
-                <div class="flex flex-col gap-2.5 text-5xl font-bold">
+                <div class="sm:[line-height:45px] md:[line-height:72px] lg:[line-height:130.5px] main__herotext flex flex-col gap-2.5 text-[clamp(50px,10vw,145px)] font-bold">
                     <h1 class="text-[var(--color-secondary)]">AFAQ</h1>
                     <h1 class="text-end">RAZA</h1>
                 </div>
                 <p class="w-17/20">I design websites, brand identities, and mobile apps that people love to use.</p>
-                <div class="hero__buttons">
-                    <a href="#" class="py-3 px-6.5 font-semibold text-[var(--color-body-text)] rounded-full container-shadow bg-[var(--color-primary)]">See what I can do</a>
-                    <a href="#" class="py-3 px-6.5 font-semibold text-[var(--color-primary)] rounded-full bg-[var(--color-body-text)]">Contact me</a>
+                <div class="hero__buttons flex gap-2.5">
+                    <a href="#" class="py-3 px-6.5 font-semibold text-[var(--color-body-text)] rounded-full container-shadow bg-[var(--color-primary)] text-nowrap">See what I can do</a>
+                    <a href="#" class="py-3 px-6.5 font-semibold text-[var(--color-primary)] rounded-full bg-[var(--color-body-text)] text-nowrap">Contact me</a>
                 </div>
             </div>
-            <div class="social-media flex py-5 px-9 gap-6 icon-shadow absolute z-50 -bottom-1.5 right-20.5 bg-[var(--color-primary)] rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl lg:flex-col lg:bottom-1/2 lg:transform lg:translate-y-1/2 lg:-right-1.5">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"></path></svg>
+            <div class="social-media flex py-5 px-9 lg:px-5 lg:py-0 lg:h-50 lg:justify-around lg:gap-0 gap-6 icon-shadow absolute z-50 -bottom-1.5 right-20.5 bg-[var(--color-primary)] rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl lg:flex-col lg:bottom-1/2 lg:transform lg:translate-y-1/2 lg:-right-1.5">
+                <a href="#" class="p-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path></svg></a>
+                <a href="#" class="p-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg></a>
+                <a href="#" class="p-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--color-tertiary)" viewBox="0 0 256 256"><path d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"></path></svg></a>
             </div>
         </div> 
     </main>

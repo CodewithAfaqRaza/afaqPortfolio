@@ -1,5 +1,11 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.main__herotext{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
 .dark{
     --color-primary:#171717;
     --color-secondary:#0A7Ac2;
@@ -30,8 +36,8 @@
 }
 .main-container{
     box-shadow: 
-    inset -2px -2px 2px 0px #404040a1, 
-    inset 2px 2px 2px 0px #000000;
+    inset -2px -2px 2px 0px var(--color-shadow-white), 
+    inset 2px 2px 2px 0px var(--color-shadow-black);
 }
 .humburger__top{
     transform: rotate(45deg) translate(3px ,3px);
