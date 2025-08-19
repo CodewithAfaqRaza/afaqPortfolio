@@ -98,7 +98,7 @@
                 <div class="hero__buttons flex gap-2.5">
                     <div class="cta">
                         <a href="#" >
-                            <button class="btn-wrapper main-container px-4 py-2 rounded-full text-[var(--color-body-text)] font-semibold">
+                            <button onclick="openService()" class="btn-wrapper main-container px-4 py-2 rounded-full text-[var(--color-body-text)] font-semibold">
                                 <span class="btn-bg absolute inset-0 z-0 before:content-['See_What_Can_I_Do'] before:bg-transparent"></span>
                                 <span class="btn-text z-10 relative ">See What Can I Do</span>
                             </button>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="cta">
                         <a href="#" >
-                            <button class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
+                            <button onclick="openContact()" class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
                                 <span class="btn-bg absolute inset-0 z-0 before:content-['Contact_me']"></span>
                                 <span class="btn-text z-10 relative ">Contact me</span>
                             </button>
@@ -125,7 +125,7 @@
                 <h1 class="text-[clamp(30px,5vw,50px)] font-semibold md:max-w-125 text-left break-words md:[line-height:44px] md:[letter-spacing:-1.4px]">Check Out My Recent Work</h1>
                 <div class="flex flex-col gap-4 md:items-end md:text-end">
                     <p class="text-[var(--color-tertiary)]">A collection of websites, brands, and digital experiences I've designed for clients.</p>
-                    <a href="#" class="text-base font-medium py-3 px-4.5 container-shadow rounded-full w-fit">View all Project</a>
+                    <a onclick="openProject()" href="#" class="text-base font-medium py-3 px-4.5 container-shadow rounded-full w-fit">View all Project</a>
                 </div>
             </div>
             <div class="recent__work--cards grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -176,7 +176,7 @@
                             <p class="text-sm text-[var(--color-tertiary)]">Custom websites that look great and actually help your business grow and succeed.</p>
                         </div>
                     </div>
-                    <div class="cta">
+                    <div onclick="openContact()" class="cta">
                         <a href="#" >
                             <button class="btn-wrapper w-full bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
                                 <span class="btn-bg absolute inset-0 z-0 before:content-['Start_Project']"></span>
@@ -197,7 +197,7 @@
                             <p class="text-sm text-[var(--color-tertiary)]">Logo design and brand guidelines that make your business memorable and professional.</p>
                         </div>
                     </div>
-                    <div class="cta">
+                    <div onclick="openContact()" class="cta">
                         <a href="#" >
                             <button class="btn-wrapper w-full bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
                                 <span class="btn-bg absolute inset-0 z-0 before:content-['Start_Project']"></span>
@@ -218,7 +218,7 @@
                             <p class="text-sm text-[var(--color-tertiary)]">User-friendly app designs that people actually want to download and use daily.</p>
                         </div>
                     </div>
-                    <div class="cta">
+                    <div onclick="openContact()" class="cta">
                         <a href="#" >
                             <button class="btn-wrapper w-full bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
                                 <span class="btn-bg absolute inset-0 z-0 before:content-['Start_Project']"></span>
@@ -242,7 +242,7 @@
                 </div>
                 <div class="cta">
                     <a href="#" >
-                        <button class="btn-wrapper main-icon px-4.5 py-3 rounded-full text-[var(--color-body-text)] font-semibold text-base">
+                        <button onclick="openAbout()" class="btn-wrapper main-icon px-4.5 py-3 rounded-full text-[var(--color-body-text)] font-semibold text-base">
                             <span class="btn-bg absolute inset-0 z-0 before:content-['Learn_More_Abour_Me'] before:bg-transparent"></span>
                             <span class="btn-text z-10 relative capitalize">learn more about me</span>
                         </button>
@@ -403,7 +403,7 @@
             </div>
             <div class="cta">
                 <a href="#" >
-                    <button class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
+                    <button onclick="openContact()" class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
                         <span class="btn-bg absolute inset-0 z-0 before:content-['Book_a_call']"></span>
                         <span class="btn-text z-10 relative ">Book a call</span>
                     </button>
@@ -501,7 +501,7 @@
             </div>
             <div class="cta ">
                 <a href="#" >
-                    <button class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
+                    <button onclick="openContact()" class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold">
                         <span class="btn-bg absolute inset-0 z-0 before:content-['Book_a_call']"></span>
                         <span class="btn-text z-10 relative">Book a call</span>
                     </button>
@@ -626,7 +626,7 @@
                                 </div>
                             </div>
                             <div class="services_buttons flex gap-2.5 ">
-                                <div class="cta1 w-full ">
+                                <div onclick="openContact()" class="cta1 w-full ">
                                     <a href="#" >
                                         <button class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold text-lg w-full ">
                                             <span class="btn-bg absolute inset-0 z-0 before:content-['Start_Now'] " ></span>
@@ -634,7 +634,7 @@
                                         </button>
                                     </a>
                                 </div>
-                                <div class="cta2 w-full ">
+                                <div onclick="openContact()" class="cta2 w-full ">
                                     <a href="#" >
                                         <button class="btn-wrapper  px-4 py-2 main-icon rounded-full text-[var(--color-body-text)] font-semibold text-lg w-full ">
                                             <span class="btn-bg absolute inset-0 z-0 before:content-['Chat']  " ></span>
@@ -677,7 +677,7 @@
                                 </div>
                             </div>
                             <div class="services_buttons flex gap-2.5 ">
-                                <div class="cta1 w-full ">
+                                <div onclick="openContact()" class="cta1 w-full ">
                                     <a href="#" >
                                         <button class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold text-lg w-full ">
                                             <span class="btn-bg absolute inset-0 z-0 before:content-['Start_Now'] " ></span>
@@ -685,7 +685,7 @@
                                         </button>
                                     </a>
                                 </div>
-                                <div class="cta2 w-full ">
+                                <div onclick="openContact()" class="cta2 w-full ">
                                     <a href="#" >
                                         <button class="btn-wrapper  px-4 py-2 main-icon rounded-full text-[var(--color-body-text)] font-semibold text-lg w-full ">
                                             <span class="btn-bg absolute inset-0 z-0 before:content-['Chat']  " ></span>
@@ -728,7 +728,7 @@
                                 </div>
                             </div>
                             <div class="services_buttons flex gap-2.5 ">
-                                <div class="cta1 w-full ">
+                                <div onclick="openContact()" class="cta1 w-full ">
                                     <a href="#" >
                                         <button class="btn-wrapper bg-[var(--color-body-text)] px-4 py-2 rounded-full text-[var(--color-primary)] font-semibold text-lg w-full ">
                                             <span class="btn-bg absolute inset-0 z-0 before:content-['Start_Now'] " ></span>
@@ -736,7 +736,7 @@
                                         </button>
                                     </a>
                                 </div>
-                                <div class="cta2 w-full ">
+                                <div onclick="openContact()" class="cta2 w-full ">
                                     <a href="#" >
                                         <button class="btn-wrapper  px-4 py-2 main-icon rounded-full text-[var(--color-body-text)] font-semibold text-lg w-full ">
                                             <span class="btn-bg absolute inset-0 z-0 before:content-['Chat']  " ></span>
